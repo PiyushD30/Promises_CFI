@@ -7,7 +7,6 @@ let cfipromise = new Promise((resolve, reject) => {
   else
      reject("error")
  })
- 
  async function async_await() {
    try {
      const result = await cfipromise
