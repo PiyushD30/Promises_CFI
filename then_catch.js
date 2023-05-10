@@ -7,12 +7,10 @@ let cfipromise = new Promise((resolve, reject) => {
   else
      reject("error")
  })
- 
  cfipromise
    .then((result) => {
      console.log(result)
-   }) 
+  }) 
    .catch((error) => {
      console.log(error)
-   })
- 
+  })
